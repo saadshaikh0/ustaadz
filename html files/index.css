@@ -1,0 +1,323 @@
+html,body{
+  height: 100%;
+  max-width: 100%;
+   overflow-x: hidden;
+}
+#page{
+  height: 100%;;
+}
+.landing{
+  position: relative;
+  width: 100%;
+  height: 90%;
+}
+.landing-para{
+  width: 80%;
+  left: 10%;
+}
+i.fab{
+  font-size: 40px;
+color: white;
+}
+h4{
+  margin-bottom: 0px;
+}
+.icons a{
+  margin: 0px 4%;
+}
+.footer-name p{
+  color: white;
+  font-family: 'Lobster Two', Helvetic, sans-serif;
+  font-size: 200%;
+  text-shadow: 2px 2px 3px black;
+}
+.footer-headings p a{
+  color: white;
+  font-family: 'Muli', sans-serif;
+  font-size: 125%;
+}
+.footer-headings{
+  padding-bottom:1%;
+}
+.footer-headings p a:hover{
+  text-decoration:none;
+color: black;
+}
+.copyright{
+  text-align: right;
+  padding-right: 2%;
+  margin: 0px;
+}
+.icons{
+
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+.icons a:hover,.icons a i:hover{
+  color:black;
+}
+
+.footer{
+  background: #ff0000;
+  height: auto;
+}
+.footer-heading{
+  color: white;
+}
+.ZOMATO:hover{
+  color: white;
+  text-decoration: none;
+}
+.ZOMATO{
+  color: white;
+  font-size: 40px;
+  transform: translateY(-10px);
+  font-family: 'Muli', sans-serif;
+  text-shadow: 1px 1px 1px black;
+}
+.dish-desc{
+  position: absolute;
+  top: 25%;
+  color: white;
+  z-index: 1;
+  width: 80%;
+  text-align: center;
+  opacity: 0;
+}
+div.testimonial{
+  background: black;
+}
+.testimonial-heading{
+  margin-bottom: 4%;
+  color: #e82507;
+  position: relative;
+  padding-top: 2%;
+    font-family: 'Lobster Two', Helvetic, sans-serif;
+    font-size: 50px;
+  transform: translateY(1%);
+}
+.testimonial-heading::after{
+  content: open-quote;
+  display: block;
+  position: relative;
+  width: 30px;
+  font-size: 100px;
+  height: 30px;
+  left: 50%;
+
+}
+.testimonial-author{
+  color: red;
+  padding-bottom: 2%;
+    font-family: 'Raleway', sans-serif;
+}
+hr.testimonial{
+  color: blue;
+  background: red;
+}
+.testimonial-desc{
+  text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+  margin-top: 3%;
+  color: #e82507;
+  padding-bottom: 5%;
+}
+.dish{
+  position: relative;
+  padding: 5%;
+  border: 2px solid grey ;
+  border-style: inset;
+
+  margin-bottom: 5%;
+  box-shadow: 0px 0px 10px 4px grey;
+}
+.dish-title{
+margin-top: 3%;
+font-family: 'Pacifico', Helvetica, sans-serif;
+}
+.dish-img:hover::after,.dish-img:hover p
+
+{
+  opacity: 1;
+}
+.dish-img{
+  position: relative;
+}
+.dish-img::after{
+  position: absolute;
+  content: '';
+  background: rgba(0,0,0,0.6);
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.landing-image{
+
+  background-image: url("images/bbq.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  image-resolution: from-image;
+  background-size: 100% 100%;
+background-blend-mode: darken;
+
+}
+.landing-image::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+
+}
+.serve-heading{
+  font-family: 'Lobster Two', Helvetica, sans-serif;
+  font-size: 4rem;
+  position: relative;
+}
+
+.landing-heading{
+  position: absolute;
+  top: 30%;
+  color:white;
+  width: 100%;
+  font: 400 100px/2 'Lobster Two', Helvetica, sans-serif;
+  font-size: 3rem;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+
+
+}
+.landing-para{
+  position: absolute;
+  color: white;
+  top: 50%;
+  padding: 0 5rem;
+}
+.landing-heading::after{
+  position: absolute;
+  display: block;
+  left: 50%;
+  content: '';
+  width: 40%;
+  transform: translateX(-50%);
+  height: 1px;
+  background: white;
+  color: white;
+}
+.about-us{
+  background: white;
+  height: auto;
+  padding: 2% 0px 6% 0px;
+}
+.about-us p{
+  padding: 5%;
+}
+.about-us img{
+  position: relative;
+  left: 15%;
+  width: 80%;
+  height: 100%;
+
+top: -10%;
+}
+.about-us .col-md-4{
+  position: relative;
+}
+.about-heading h2{
+background: white;
+  position: relative;
+  color: black;
+  font-family: 'Lobster Two', Helvetica, sans-serif;
+  font-size: 4rem;
+  transform: translateY(-50%);
+}
+.about-heading h2 span
+{
+  z-index: 1;
+  padding:0px 3%;
+  background: white;
+}
+.about-heading h2::after{
+  position: absolute;
+  left: 50%;
+  z-index: -1;
+  transform: translateX(-50%);
+  content: '';
+  width: 100%;
+  height: 100%;
+
+  background: black;
+}
+
+.serve{
+  height: 30%;
+}
+.dish img{
+  width: 100%;
+  height: 500px;
+
+}
+.about-desc{
+  color: black;
+  width: 100%;
+  align-content: center;
+}
+@media screen and (max-width:700px) {
+
+  .landing-image{
+    position: relative;
+    background-image: url("images/bbq.jpg");
+    width: 100%;
+    height: 85%;
+    background-repeat: no-repeat;
+    image-resolution: from-image;
+    background-size: 100% 100%;
+
+  }
+  .dish img{
+    width: 100%;
+    height: 300px;
+  }
+  .dish::after{
+    height: 300px;
+  }
+  .dish-desc{
+    position: absolute;
+    z-index: 1;
+    color: white
+  }
+.landing-heading{
+  top: 10%;
+  font-size: 2.5rem;
+}
+.landing-heading::after{
+  width: 70%;
+}
+.landing-para{
+  position: absolute;
+  color: white;
+  top: 25%;
+  padding: 0 1rem;
+}
+.serve-heading{
+  transform: translateY(-20px);
+  font-size: 40px;
+  font-family: 'Lobster Two', Helvetica, sans-serif;
+}
+.about-us img{
+  left: 10%;
+}
+.testimonial-heading{
+  font-size: 30px;
+}
+.testimonial-heading::after{
+  left: 40%;
+  height: 40px;
+}
+
+}

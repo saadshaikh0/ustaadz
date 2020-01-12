@@ -1,0 +1,130 @@
+html,body,.wrapper{
+height:100%;
+}
+#sidebar.active{
+
+  margin-left: -250px;
+}
+#sidebar
+{
+  padding: 20px;
+  align-self: stretch;
+  min-width: 250px;
+  max-width: 250px;
+background: red;
+
+}
+.components{
+  margin-top: 50px;
+}
+button#sidebarCollapse{
+  background: black;
+}
+.btn,.btn:active,.btn::after,.btn::before{
+  border: none;
+}
+.sidebar-header{
+  padding: 20px;
+}
+#sidebar ul{
+  padding: 0 20px;
+}
+#sidebar ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1.1em;
+  font-family: 'Roboto', sans-serif;
+}
+#sidebar ul li{
+  padding: 20px 0;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+
+}
+.content{
+  flex-grow: 1;
+
+}
+div.jumbotron{
+  display: flex;
+  align-items: center;
+  background-color:black;
+  font-size:7rem;
+  color:red;
+  font-family: 'Luckiest Guy', cursive;
+  padding:0px 32px;
+
+}
+div.jumbotron p{
+  flex-grow: 1;
+}
+.party-order p{
+  margin: 0px;
+  font-size: 3rem;
+}
+button#sidebarCollapse{
+
+
+}
+.party-order{
+  border: 2px solid black;
+
+  padding:10px;
+
+
+  color:white;
+}
+
+@media screen and (max-width:1200px){
+  div.jumbotron{
+
+    font-size:4rem;
+
+
+  }
+  .party-order p{
+    margin: 0px;
+    font-size: 1rem;
+  }
+  .party-order{
+
+
+    color:white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+
+  div.jumbotron{
+    width: 100%;
+    background-color:black;
+    font-size:2rem;
+    color:red;
+    font-family: 'Luckiest Guy', cursive;
+padding:10px 32px;
+  }
+  .party-order p{
+    margin: 0px;
+    font-size: 15px;
+  }
+  .jumbotron p{
+    margin: 0px;
+  }
+  .party-order{
+    border: 1px solid white;
+
+    padding: 2px 1px;
+    color:white;
+  }
+}
